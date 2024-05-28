@@ -1,0 +1,15 @@
+C:\Projects\DotNet\Asyncronousness\bin\Debug\net8.0\Asyncronousness.exe
+C:\Projects\DotNet\Asyncronousness\bin\Debug\net8.0\Asyncronousness.deps.json
+C:\Projects\DotNet\Asyncronousness\bin\Debug\net8.0\Asyncronousness.runtimeconfig.json
+C:\Projects\DotNet\Asyncronousness\bin\Debug\net8.0\Asyncronousness.dll
+C:\Projects\DotNet\Asyncronousness\bin\Debug\net8.0\Asyncronousness.pdb
+C:\Projects\DotNet\Asyncronousness\obj\Debug\net8.0\Asyncronousness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DotNet\Asyncronousness\obj\Debug\net8.0\Asyncronousness.AssemblyInfoInputs.cache
+C:\Projects\DotNet\Asyncronousness\obj\Debug\net8.0\Asyncronousness.AssemblyInfo.cs
+C:\Projects\DotNet\Asyncronousness\obj\Debug\net8.0\Asyncronousness.csproj.CoreCompileInputs.cache
+C:\Projects\DotNet\Asyncronousness\obj\Debug\net8.0\Asyncronousness.sourcelink.json
+C:\Projects\DotNet\Asyncronousness\obj\Debug\net8.0\Asyncronousness.dll
+C:\Projects\DotNet\Asyncronousness\obj\Debug\net8.0\refint\Asyncronousness.dll
+C:\Projects\DotNet\Asyncronousness\obj\Debug\net8.0\Asyncronousness.pdb
+C:\Projects\DotNet\Asyncronousness\obj\Debug\net8.0\Asyncronousness.genruntimeconfig.cache
+C:\Projects\DotNet\Asyncronousness\obj\Debug\net8.0\ref\Asyncronousness.dll
