@@ -13,7 +13,7 @@ namespace Asyncronousness
             var IPAddresses = Dns.GetHostAddresses(htmlAddress, AddressFamily.InterNetwork);
             foreach (var item in IPAddresses)
                 Console.WriteLine(item);
-
+            Console.WriteLine("Pinging IPs:");
             var pings = new ConcurrentDictionary<IPAddress, long>();
             //adding available addresses with reply time in dictionary
             foreach (var address in IPAddresses)
