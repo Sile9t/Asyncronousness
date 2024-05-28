@@ -2,6 +2,7 @@
 using System.Net.Sockets;
 using System.Net;
 using System.Collections.Concurrent;
+using System.Text;
 
 namespace Asyncronousness
 {
@@ -29,9 +30,22 @@ namespace Asyncronousness
             var minPing = pings.MinBy(x => x.Value);
             return minPing.Key;
         }
+        static async Task PrintStringFromMemory(MemoryStream memoryStream)
+        {
+            byte[] buffer = new byte[1024];
+            int bytesRead = 0;
+            StringBuilder sb = new StringBuilder();
+            while ((bytesRead = await memoryStream.ReadAsync(buffer)) > 0)
+            {
+                await Console.Out.WriteAsync(Encoding.UTF8.GetString(buffer, 0, bytesRead));
+            }
+        }
         static async Task Main(string[] args)
         {
-            Console.WriteLine($"CLosest IP: {await GetClosestIPToSite("vk.com")}");
+            //Console.WriteLine($"CLosest IP: {await GetClosestIPToSite("vk.com")}");
+            var data = Encoding.UTF8.GetBytes("Data form memory stream, written by strings.");
+            var memoryStream = new MemoryStream(data);
+            await PrintStringFromMemory(memoryStream);
         }
     }
 }
